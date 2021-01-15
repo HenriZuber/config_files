@@ -1,5 +1,9 @@
 
+"--------------- deoplete ---------------
 let g:deoplete#enable_at_startup = 1
+
+"--------------- black ---------------
+let g:black_linelength = 100
 
 "--------------- NERDTree -----------
 let NERDTreeIgnore=['\.pyc$']
@@ -79,9 +83,6 @@ let g:cpp_no_function_highlight = 1
 let g:rg_highlight = 1
 nnoremap <leader>s :Rg<Space>
 
-"--------------- vim-polyglot ---------------
-" let g:polyglot_disabled = ['python']
-"
 "--------------- vim-gitgutter ---------------
 highlight GitGutterAddLine ctermbg=22
 highlight GitGutterChangeLine ctermbg=136

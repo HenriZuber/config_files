@@ -102,12 +102,10 @@ export EDITOR="$VISUAL"
 
 export PATH=$PATH:$HOME/bin
 export PATH=$PATH:/usr/local/cuda/bin
-export PYTHONPATH=$PYTHONPATH:/disk1/alexandre/:/disk1/alexandre/live
-export PYTHONPATH=$PYTHONPATH:/disk1/alexandre/Reminiz_experiments
-export PYTHONPATH=$PYTHONPATH:/home/antoine/Reminiz_FaceDetector/Train/Reminiz_py_faster/caffe/python
-export PYTHONPATH=$PYTHONPATH:/home/antoine/Reminiz_FaceDetector/Train/Reminiz_py_faster/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/OpenBLAS/lib
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/lib64
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64
 
 
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

@@ -77,8 +77,7 @@ autocmd FileType sql setlocal commentstring=--\ %s
 set t_ZH=[3m
 set t_ZR=[23m
 " Reformat the current file with YAPF
-autocmd FileType python nnoremap <leader>2y :0,$!yapf<Cr><C-o>h
-autocmd FileType python nnoremap <leader>y :0,$!python3.6 -m yapf<Cr><C-o>h
+autocmd FileType python nnoremap <leader>y :Black<Cr>
 autocmd FileType javascript nnoremap <leader>y ! eslint --fix %<Cr>
 " vimdiff params
 set diffopt=vertical,filler
