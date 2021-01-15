@@ -2,5 +2,6 @@
 
 1st installs
 
-sudo apt install make
+sudo apt install make 
+
 sudo apt install stow
